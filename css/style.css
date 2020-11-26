@@ -1,0 +1,246 @@
+body {
+    background-color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    line-height: 28px;
+    font-size: 18px;
+    color: #434343;
+}
+
+/*Header Top*/
+.header_top {
+    padding: 2px 0;
+    background: #800000;
+}
+
+.header_top span,
+.header_top span a {
+    padding-right: 5px;
+    color: #fff;
+}
+
+.header_top .right {
+    text-align: right;
+}
+
+.header_top i {
+    font-size: 14px;
+    padding-right: 2px;
+}
+
+@media (max-width: 480px) {
+
+    .header_top,
+    .header_top .right {
+        text-align: center;
+    }
+}
+
+/*Main Header*/
+.main-header h1 {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: inherit;
+    color: #d2322d;
+    font-family: 'Chivo', sans-serif;
+
+}
+
+.main-header p {
+    padding: inherit;
+    margin: inherit;
+    text-align: center;
+    color: #09324a;
+    font-family: 'Chivo', sans-serif;
+}
+
+/*Menu*/
+.navbar {
+    padding-top: inherit;
+    padding-bottom: inherit;
+}
+
+.bg-dark {
+    background-color: #850134 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+/*About*/
+#about h3 {
+    color: #850134;
+    font-weight: 600;
+}
+
+/*Design*/
+.social_section {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 63px 0px 130px 0px;
+    background: #eee url(../images/slider21.jpg);
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.social-cont {
+    width: 65.350%;
+}
+
+.margin_top {
+    float: left;
+    width: 100%;
+    margin-top: 70px;
+}
+
+/*Enquiry Form*/
+#enquiry_form h3 {
+    text-align: center;
+    color: #850134;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+#enquiry_form .form-control {
+    border-radius: 1px;
+}
+
+#enquiry_form .form-control:focus {
+    border-color: #ea8fb3;
+    box-shadow: inherit;
+}
+
+.btn-primary {
+    padding: 3px 15px;
+    color: #fff;
+    background-color: #850134;
+    border-radius: initial;
+    border-color: transparent;
+    margin: 10px;
+}
+
+/*Contact*/
+#contact h3 {
+    color: #850134;
+    font-weight: 600;
+}
+
+#contact h4 {
+    color: #0277BD;
+}
+
+/*Footer*/
+#copyright {
+    background-color: #800000;
+    cursor: pointer;
+    padding: 3px 0 0;
+    margin: initial;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+#copyright p,
+#copyright a {
+    color: #fff;
+    margin: 0px;
+}
+
+.value_section .item img{
+    max-width: 100%;
+    height: 220px;
+}
+.owl-theme .owl-nav{
+    display: none;
+}
+.owl-theme .owl-dots{
+    margin:10px 0;
+}
+.gallery-list {
+    background-color: #f2f1f1;
+}
+
+.gallery-list .gallary-contain .thumbnail img {
+    max-width: 100%;
+    height: 180px;
+    margin: 10px 5px;
+    border: 8px solid #ffffff;
+    -webkit-box-shadow: -2px 0px 5px 0px rgba(186, 186, 186, 1);
+    -moz-box-shadow: -2px 0px 5px 0px rgba(186, 186, 186, 1);
+    box-shadow: -2px 0px 5px 0px rgba(186, 186, 186, 1);
+}
+.banner-about{
+   background-image: url('../images/about-banner.jpg');
+padding: 100px 0px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.banner-text{
+    color: #fff;
+    font-weight: bold;
+}
+.space{
+    padding-top: 40px;
+}
+.heading-text{
+    color: #850134
+}
+.space-med{
+    padding-top: 20px;
+}
+.divider{
+    background: #850134;
+    width: 50px;
+    height: 2px;
+    margin: auto;
+}
+.Enquiry-form{
+    clear: both;
+}
+.banner-gallery{
+       background-image: url('../images/gallery-banner.jpg');
+padding: 100px 0px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.contact-address{
+
+}
+.banner-disclaimer{
+         background-image: url('../images/disclaimer.jpg');
+padding: 100px 0px;
+background-repeat: no-repeat;
+background-size: 100% 100%;  
+}
+.banner-condition{
+             background-image: url('../images/t-t.jpg');
+padding: 100px 0px;
+background-repeat: no-repeat;
+background-size: 100% 100%; 
+}
+.banner-privacy{
+                 background-image: url('../images/privacy.jpg');
+padding: 100px 0px;
+background-repeat: no-repeat;
+background-size: 100% 100%; 
+}
+.banner-refund{
+    background-image: url('../images/returns-banner.jpg');
+
+padding: 100px 0px;
+background-repeat: no-repeat;
+background-size: 100% 100%; 
+filter: grayscale(100%);
+}
